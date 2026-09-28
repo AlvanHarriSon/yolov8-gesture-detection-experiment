@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.tmp/
+
+# Local application state
+Ultralytics/
+
+# Generated datasets and training runs
+dataset/
+my_dataset/
+runs/
+
+# Source data and model weights are intentionally not redistributed
+raw/
+weights/
+
+# Local archives and packaged outputs
+*.zip
+local_archive/
+inference_result.jpg
